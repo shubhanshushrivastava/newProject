@@ -637,6 +637,9 @@ text-align: start;
     .try-us .user-box{
         padding: 15px;
     }
+    .banner-btn{
+        gap: 12px;
+    }
 }
 @media (max-width:768px){
     .get-touch-sec .form-box{
@@ -645,6 +648,9 @@ text-align: start;
     .get-touch-sec .get-box{
         margin: auto;
         padding: 20px;
+    }
+    .footer-sec ul li{
+        margin-bottom: 10px;
     }
    
 }

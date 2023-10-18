@@ -359,11 +359,11 @@ const HomePage = () => {
                         <Col md="10">
                             <div className='get-box'>
                                 <Row className='align-items-center'>
-                                    <Col md="6">
+                                    <Col lg="6" md="5">
                                         <h4>You deserve someone to talk!</h4>
                                         <p>Love to hear from you.</p>
                                     </Col>
-                                    <Col lg="5" md="6" className='offset-lg-1'>
+                                    <Col lg="5" md="7" className='offset-lg-1'>
                                         <div className='form-box'>
                                             <h5>Want to get in touch?</h5>
                                             <div className='form'>
