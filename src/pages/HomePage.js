@@ -19,7 +19,7 @@ const HomePage = () => {
             <div className='banner-home'>
                 <Container>
                     <Row>
-                        <Col md="8">
+                        <div className='col-md-8 col-8'>
                             <div className='banner-content'>
                                 <h1><span>Uplift </span>
                                     yourself without sharing who you are.</h1>
@@ -28,12 +28,12 @@ const HomePage = () => {
                                     <a> <img src='images/apple.png' className='img-fluid' alt="banner" /> App Store</a>
                                 </div>
                             </div>
-                        </Col>
-                        <Col md="4">
+                        </div>
+                        <div className='col-md-4 col-4'>
                             <div className='banner-img'>
                                 <img src='images/Union.png' className='img-fluid' alt="banner" />
                             </div>
-                        </Col>
+                        </div>
                     </Row>
                    
                 </Container>
@@ -61,7 +61,7 @@ const HomePage = () => {
             <div className='try-us'>
                 <Container>
                     <Row>
-                        <Col md="6">
+                        <Col md="6" className='d-flex'>
                             <div className='try-box'>
                                 <h3>Can’t find someone to talk?</h3>
                                 <a>Try us <img src='images/right-arrow.png' className='img-fluid' alt='arrow' /></a>

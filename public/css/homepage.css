@@ -122,6 +122,7 @@ font-size: 25px;
 font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 160% */
+text-align: start;
 }
 .red{
     color: #fc5c65;
@@ -457,6 +458,7 @@ line-height: 40px; /* 160% */
     font-weight: 700;
     line-height: 45px;
     padding-left: 30px;
+    text-align: left;
 }
 .get-touch-sec .get-box p{
     color: #FFF;
@@ -625,6 +627,16 @@ line-height: 40px; /* 160% */
     .footer-sec .logo{
         margin-top: 20px;
     }
+    .header-home a.nav-link{
+        text-align: left;
+    }
+    .try-us .try-box{
+        gap: 10px;
+        padding: 15px;
+    }
+    .try-us .user-box{
+        padding: 15px;
+    }
 }
 @media (max-width:768px){
     .get-touch-sec .form-box{
@@ -634,4 +646,5 @@ line-height: 40px; /* 160% */
         margin: auto;
         padding: 20px;
     }
+   
 }
