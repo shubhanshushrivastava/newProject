@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   width: 100vw;
   height: 8vh;
@@ -5,6 +9,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* position: fixed; */
+  }
+
+a{
+  text-decoration: none;
 }
 
 .logoHeader {
@@ -40,6 +49,10 @@
   cursor: pointer;
 }
 
+.navlinks li a {
+  color: white;
+}
+
 .headerButton {
   display: flex;
   align-items: center;
@@ -59,7 +72,7 @@
     color:white;
 }
 
-.navlinks li:hover {
+.navlinks li a:hover {
   color: #d275f8;
 }
 /* .logoimg {

@@ -3,7 +3,7 @@ import './Page6.css'
 
 function Page6() {
   return (
-    <div className='page6'>
+    <div className='page6' id='page6'>
         <div className="formContainer">
         <div className="formBoxtext">
             <h1>You deserve someone to talk !</h1>
