@@ -1,27 +1,25 @@
 import './App.css';
-import Header from "./Header";
-import Home from './Home';
-import AboutUs from './AboutUs';
-import Page3 from './Page3';
-import Page4 from './Page4';
-import Page5 from './Page5';
-import Mid3 from './Mid3';
-import Page6 from './Page6';
+import HomeNew from './HomeNew';
 
+import HomePage from './pages/HomePage';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Redirect,
+  Navigate,
+} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <AboutUs/>
-      <Page3/>
-      <Page4/>
-      <Page5/>
-      <Mid3/>
-      <Page6/>
-     
+          <BrowserRouter>
+     <Routes>
+     <Route path="/" element={<HomeNew/>} />
+      <Route path="/home" element={<HomePage/>} />
+     </Routes>
+   </BrowserRouter>
     </div>
   );
 }
