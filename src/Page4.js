@@ -7,6 +7,8 @@ function Page4() {
     <div className='page4'>
         <div className="p4h1"><h1>One of every five people experiences <span>loneliness</span></h1></div>
         <img className='p4img' src={imgGroup} alt="" />
+        <div className="p4h1"><h1>One of every five people experiences <span>loneliness</span></h1></div>
+
     </div>
   )
 }

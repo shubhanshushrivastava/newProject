@@ -1,62 +1,67 @@
-.faqContainer{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 80vh;
-    /* background-color: rgb(35,22,45); */
-   
-    
+.faqContainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  /* background-color: rgb(35,22,45); */
 }
 .faqContainer h2 {
-    color: white ;
-    margin-left: 110px;
-   margin-bottom: 40px;    
+  font-family: "poppins";
+
+  color: white;
+  margin-left: 110px;
+  margin-bottom: 40px;
 }
 .algo-container {
-    margin: auto;
-    font-family: Arial, sans-serif;
-    /* display: inline-block; */
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .question-container {
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .question {
-    text-align: left;
-    width: 85vw;
-    cursor: pointer;
-    background-color: #0b0b0b84;
-    padding: 10px;
-    /* border: 1px solid #ccc; */
-    border-radius: 5px;
-    color: white;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  /* display: inline-block; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 
-    /* text-decoration: none; */
-    transition-property:all;
-    transition-duration:0.1s;
-    transition-delay: 0s;
-  }
+.question-container {
+  margin-bottom: 10px;
+  display: block;
+}
 
-  .question:hover {
+.question {
+  text-align: left;
+  width: 85vw;
+  cursor: pointer;
+  background-color: #0b0b0b84;
+  padding: 2vh;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-family: "poppins";
+ 
+  /* text-decoration: none; */
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-delay: 0s;
+}
 
-    background-color: rgba(129, 3, 255, 0.549);
-    color: black;
-    border: none;
-    /* text-decoration: underline; */
-  }
-  
-  .answer {
-    text-align: left;
-    width: 85vw;
-    color: white;
-    padding: 10px;
-    /* border: 1px solid #ccc; */
-    border-radius: 5px;
-    background-color: rgb(40, 9, 40);
-  }
-  
+.question:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  /* text-decoration: underline; */
+}
+
+.answer {
+  text-align: left;
+  width: 86vw;
+  font-family: "poppins";
+  /* height: 10vh; */
+  color: white;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color:black ;
+  color: white;
+  font-size: large;
+
+}

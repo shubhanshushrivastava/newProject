@@ -1,25 +1,28 @@
 .page4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0;
     padding: 0;
-    width: 100;
-    height: 100vh;
+    width: 100%;
+    height: 90vh;
     background-color: #312636;
 
 }
 
 .p4h1 h1{
-    margin: 0;
-    color: white;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 105% */
+    letter-spacing: 0.8px;
 }
 
 .p4h1 span {
-    color: blueviolet;
+    color: #BA68C8;
 }
 
 .p4img{
+    /* margin-top: -10vh; */
     margin: auto;
     height: 60vh;
     width: 57vh;

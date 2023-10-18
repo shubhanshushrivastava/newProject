@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import "./aboutUs.css";
-import img1 from "./images/home/mountainAll.png";
-import img2 from "./images/home/Group 26085448appstore.png";
-import img3 from "./images/home/Group 26085449googleplay.png";
 
 function AboutUs() {
   useEffect(() => {
@@ -25,18 +22,19 @@ function AboutUs() {
 
   return (
     <div className="aboutUs">
-      <div className="downl">
+      {/* <div className="downl">
         <img className="downloo" src={img2} alt="" />
         <img className="downloo" src={img3} alt="" />
-      </div>
-      <img className="hello" src={img1} alt="" />
+      </div> */}
+      {/* <img className="hello" src={img1} alt="" /> */}
       <div className="whatt">
         <h1 className="what">What we can do for you?</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-          quisquam rerum eaque tenetur amet libero sequi facilis dolor animi.
-          Quidem adipisci, similique corrupti perspiciatis reprehenderit
-          temporibus consectetur quia praesentium saepe!
+        <p className="whatp">
+          Uplift App helps you understand yourself better by letting you talk
+          openly. You can have conversations through{" "}
+          <span className="chat">chat</span>,{" "}
+          <span className="calls">Calls</span>, or{" "}
+          <span className="vcalls">video calls</span>.
         </p>
       </div>
       <div className="tryBox">
@@ -46,14 +44,16 @@ function AboutUs() {
         </div>
         <div className="box2">
           <p className="count">100+</p>
-          <p>Speakers and Listeners</p>
+          <p className="counttt">Speakers and Listeners</p>
         </div>
         <div className="box2">
           <p className="count">1600+</p>
-          <p>Happy Souls</p>
+          <p className="counttt">Happy Souls</p>
         </div>
       </div>
-      <div className="healing"><p>EXPRESS YOURSELF WITHOUT SHARING WHO YOU ARE !!!</p></div>
+      <div className="healing">
+        <p>EXPRESS <span className="calls">YOURSELF</span> <span className="chat">WITHOUT</span> SHARING <span className="vcalls">WHO YOU ARE </span>!!!</p>
+      </div>
     </div>
   );
 }

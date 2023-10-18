@@ -5,7 +5,6 @@ import p3download from "./images/p3download.png";
 
 function Page3() {
   return (
-   
     <div className="p3Container">
       <div className="p31">
         <div className="p31text">
@@ -13,25 +12,21 @@ function Page3() {
           <h1 className="h1">Unlock the lonliness into the stress free life</h1>
           <h1 className="h2">-WE ARE HERE FOR YOU !!</h1>
           <p className="p31p2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-            consequuntur minus quaerat suscipit quia adipisci, ad ullam quidem
-            voluptate necessitatibus delectus esse sapiente harum odio optio
-            temporibus laboriosam minima architecto quae quas molestias
-            molestiae. Tempora nemo corrupti maiores, velit minus repellendus,
-            harum, quod natus possimus minima ex enim eius nihil.
+            Uplift is an app dedicated to enhancing emotional well-being. Here,
+            you can have discreet conversations with our experienced Healers who
+            have walked a similar path of hardship. They are committed to
+            actively listening, making sure you feel truly understood and
+            ultimately, better.
           </p>
-          <div >
-          <img className="p31button" src={p3download} alt="" />
+          <div className="p31button">
+            Download Now
+                     </div>
         </div>
-        </div>
-        
       </div>
       <div className="p32">
         <img className="page3img" src={imgphone} alt="" />
       </div>
-      
     </div>
-    
   );
 }
 

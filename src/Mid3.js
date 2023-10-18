@@ -39,7 +39,7 @@ function Mid3() {
   return (
     <div className="faqContainer" id="faqContainer">
       <div className="faqHead">
-        <h2>FAQ's</h2>
+        <h2>Frequently Asked Questions ( FAQ's )</h2>
       </div>
       <div className="algo-container">
         {questions.map((q) => (
